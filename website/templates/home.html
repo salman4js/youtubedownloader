@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1 align = "center"> Welcome! </h1>
+<div class = "container">
+  <form method = "POST">
+    <div class = "form-group">
+      <legend> Get Youtube Videos Into Albums! </legend>
+      <label for = "url"> Enter URl </label>
+      <input
+        class = "form-control"
+        id = "name"
+        placeholder= "Enter URl"
+        type = "text"
+        name = "name"
+      />
+      <br/>
+      <button type = "submit" class = "btn btn-secondary"> Download </button>
+    </div>
+  </form>
+</div>
+{% endblock %}
